@@ -19,4 +19,4 @@ function TodoInput({ setAddState, addTodo }){
 	);
 }
 
-export default TodoInput;
+export default React.memo(TodoInput);

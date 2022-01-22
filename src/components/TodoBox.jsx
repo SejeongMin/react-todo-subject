@@ -33,4 +33,4 @@ function TodoBox({ todoList, addTodo, setTodoList }){
 	)
 }
 
-export default TodoBox;
+export default React.memo(TodoBox);
